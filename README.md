@@ -1,5 +1,5 @@
 # Overview
-This project is about analyzing the student informations via means of charts in different dashboards
+This project is about using Redux in a React project that is fetching data from an api.
 
 # Technology Stack
  * [Semantic UI](https://semantic-ui.com/) CSS framework with user interface components.
@@ -11,13 +11,7 @@ This project is about analyzing the student informations via means of charts in 
 
 This section is for getting started with Robokind on your development environment.
 
-1. **Clone the repository**
-  ```
-  git clone git@gitlab.com:successivesoftware/robokind_dashboard.git
-  cd robokind-dashboard
-  ```
-
-2. **Launch the app via Docker**
+1. **Launch the app via Docker**
   This is the recommended way to run the system during development.
 
   - Install Docker ([instructions for ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository))
