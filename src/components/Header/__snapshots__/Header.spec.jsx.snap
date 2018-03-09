@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match header snapshot 1`] = `
+<Menu
+  borderless={true}
+  className="visible"
+  fixed="top"
+  size="massive"
+>
+  <MenuItem
+    as="a"
+    header={true}
+  >
+    <img
+      alt="Robokind"
+      src="logo.svg"
+    />
+  </MenuItem>
+  <MenuItem
+    name="sign-in"
+    position="right"
+  >
+    Sign-in
+  </MenuItem>
+</Menu>
+`;

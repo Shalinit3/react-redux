@@ -1,0 +1,54 @@
+{
+  "base": "semantic/",
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    "output": {
+      "packaged": "../../src/semantic/dist/",
+      "uncompressed": "../../src/semantic/dist/components/",
+      "compressed": "../../src/semantic/dist/components/",
+      "themes": "../../src/semantic/dist/themes/"
+    },
+    "clean": "../../src/semantic/dist/"
+  },
+  "permission": false,
+  "autoInstall": false,
+  "rtl": false,
+  "components": [
+    "accordion",
+    "reset",
+    "site",
+    "button",
+    "container",
+    "divider",
+    "dropdown",
+    "header",
+    "icon",
+    "image",
+    "input",
+    "label",
+    "list",
+    "segment",
+    "loader",
+    "form",
+    "grid",
+    "menu",
+    "message",
+    "table",
+    "card",
+    "checkbox",
+
+    "visibility",
+
+    "dimmer",
+    "modal",
+    "sidebar",
+    
+    "transition"
+  ],
+  "version": "2.2.13"
+}

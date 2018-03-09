@@ -1,0 +1,4 @@
+.react-datepicker__day--today {
+    font-weight: bold;
+    background-color: green;
+}

@@ -1,0 +1,100 @@
+/*******************************
+         Site Overrides
+*******************************/
+body {
+    background: #FBFBFD
+}
+
+.ui.top.menu.visible {
+    height: 70px;
+    transition:all .4s ease-in-out
+}
+
+.ui.top.menu {
+    height: 50px;
+    font-size: 0.8rem;
+    transition: all .4s ease-in-out
+}
+
+.ui.top.menu {
+    .item > img:not(.ui) {
+        width: 200px
+    }
+}
+
+/**
+ * Menu Size
+ */
+
+.ui.top.menu.massive.visible {
+    font-size: 1.28571429rem;
+    transition:all .4s ease-in-out;
+}
+
+.ui.top.menu.massive {
+    font-size: 0.9rem;
+    transition:all .4s ease-in-out;
+}
+
+.main-content {
+    padding-top: 70px
+}
+
+/**
+ * Label Coloring
+ */
+
+.ui.form .grouped.fields>label.more {
+    display: block;
+    padding: 5px 27px 0px;
+    color: #00b5ad;
+    cursor: pointer;
+}
+
+a.clear-selection {
+    color: brown;
+    font-weight: bold;
+    cursor: pointer
+} 
+
+/**
+ * ALPHABETICAL FILTER
+ */
+
+.ui.modal > .header:not(.ui) {
+    font-size: 12px;
+    line-height: 30px
+}
+
+.ui.modal > .header:not(.ui) .title {
+    font-size: 20px
+}
+
+.ui.modal > .content .alphabetical {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.ui.modal > .content .alphabetical {
+    div.partition {
+        display: inline-block;
+        width: 200px
+    }
+}
+
+.ui.modal > .content .alphabetical div.partition > div {
+    margin: 10px 0px;
+}
+
+.ui.modal > .header .menu.text .item {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.ui.modal > .header .menu.text .item.disabled {
+    color: #cccccc
+}
+
+.ui.modal > .header .menu.text .item.disabled:hover {
+    color: #cccccc
+}

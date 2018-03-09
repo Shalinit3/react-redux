@@ -1,0 +1,11 @@
+{
+  "extends": ["standard", "standard-jsx"],
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-no-bind": [0]
+  }
+}

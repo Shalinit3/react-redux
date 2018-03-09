@@ -1,0 +1,41 @@
+export const getData = () => {
+  const arr = [
+    {name: 'xyz', time: '2.3'}, {name: 'xyz', time: '1.2'}, {name: 'xyz', time: '9.1'},
+    {name: 'xyz', time: '1.3'}, {name: 'xyz', time: '1.3'}, {name: 'xyz', time: '9.2'},
+    {name: 'xyz', time: '2.0'}, {name: 'xyz', time: '1.4'}, {name: 'xyz', time: '9.3'},
+    {name: 'xyz', time: '2.5'}, {name: 'xyz', time: '1.5'}, {name: 'xyz', time: '9.3'},
+    {name: 'xyz', time: '4.3'}, {name: 'xyz', time: '1.6'}, {name: 'xyz', time: '9.3'},
+    {name: 'xyz', time: '7.3'}, {name: 'xyz', time: '1.7'}, {name: 'xyz', time: '7.3'},
+    {name: 'xyz', time: '0.3'}, {name: 'xyz', time: '1.8'}, {name: 'xyz', time: '7.3'},
+    {name: 'xyz', time: '2.3'}, {name: 'xyz', time: '1.9'}, {name: 'xyz', time: '7.3'},
+    {name: 'xyz', time: '2.5'}, {name: 'xyz', time: '1.1'}, {name: 'xyz', time: '7.3'},
+    {name: 'xyz', time: '2.7'}, {name: 'xyz', time: '1.0'}, {name: 'xyz', time: '7.3'},
+    {name: 'xyz', time: '2.9'}, {name: 'xyz', time: '2.0'}, {name: 'xyz', time: '7.3'},
+    {name: 'xyz', time: '2.1'}, {name: 'xyz', time: '2.1'}, {name: 'xyz', time: '3.3'},
+    {name: 'xyz', time: '2.2'}, {name: 'xyz', time: '2.2'}, {name: 'xyz', time: '4.3'},
+    {name: 'xyz', time: '3.3'}, {name: 'xyz', time: '2.3'}, {name: 'xyz', time: '3.3'},
+    {name: 'xyz', time: '3.6'}, {name: 'xyz', time: '2.4'}, {name: 'xyz', time: '4.3'},
+    {name: 'xyz', time: '5.3'}, {name: 'xyz', time: '2.5'}, {name: 'xyz', time: '4.2'},
+    {name: 'xyz', time: '5.1'}, {name: 'xyz', time: '2.6'}, {name: 'xyz', time: '4.3'},
+    {name: 'xyz', time: '5.2'}, {name: 'xyz', time: '2.7'}, {name: 'xyz', time: '4.4'},
+    {name: 'xyz', time: '5.8'}, {name: 'xyz', time: '2.7'}, {name: 'xyz', time: '4.5'},
+    {name: 'xyz', time: '2.3'}, {name: 'xyz', time: '2.8'}, {name: 'xyz', time: '4.6'},
+    {name: 'xyz', time: '6.3'}, {name: 'xyz', time: '2.9'}, {name: 'xyz', time: '4.7'},
+    {name: 'xyz', time: '4.3'}, {name: 'xyz', time: '3.1'}, {name: 'xyz', time: '4.8'},
+    {name: 'xyz', time: '8.3'}, {name: 'xyz', time: '3.2'}, {name: 'xyz', time: '4.0'},
+    {name: 'xyz', time: '5.3'}, {name: 'xyz', time: '4.3'}, {name: 'xyz', time: '4.9'},
+    {name: 'xyz', time: '2.7'}, {name: 'xyz', time: '5.3'}, {name: 'xyz', time: '4.2'},
+    {name: 'xyz', time: '8.7'}, {name: 'xyz', time: '6.3'}, {name: 'xyz', time: '5.3'},
+    {name: 'xyz', time: '3.7'}, {name: 'xyz', time: '7.3'}, {name: 'xyz', time: '5.2'},
+    {name: 'xyz', time: '0.7'}, {name: 'xyz', time: '8.1'}, {name: 'xyz', time: '6.2'},
+    {name: 'xyz', time: '1.7'}, {name: 'xyz', time: '8.2'}, {name: 'xyz', time: '5.4'},
+    {name: 'xyz', time: '7.7'}, {name: 'xyz', time: '8.3'}, {name: 'xyz', time: '6.5'},
+    {name: 'xyz', time: '6.7'}, {name: 'xyz', time: '8.4'}, {name: 'xyz', time: '6.4'},
+    {name: 'xyz', time: '5.7'}, {name: 'xyz', time: '8.5'}, {name: 'xyz', time: '5.8'},
+    {name: 'xyz', time: '4.7'}, {name: 'xyz', time: '8.6'}, {name: 'xyz', time: '6.9'},
+    {name: 'xyz', time: '3.7'}, {name: 'xyz', time: '8.7'}, {name: 'xyz', time: '5.0'},
+    {name: 'xyz', time: '2.8'}, {name: 'xyz', time: '8.8'}, {name: 'xyz', time: '6.3'}
+
+  ]
+  return arr
+}
